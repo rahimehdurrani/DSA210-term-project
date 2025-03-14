@@ -3,7 +3,7 @@
 This project aims to look at the relationship between literacy rates and gender equality. Gender equality, measured by the Women’s  Security and Peace Index, alongside the Gini Co-efficient, a measure of economic inequality, will be used to understand how education and economic factors interact to impact gender equality. 
 
 ## Motivation 
-When we see countries today prosper economically, we see thaat their success can be linked to high literacy rates. However, in 2025, despire economic prosperity, gender discrimination is still quite prevalent. Thus, in my project, I intend to:
+When we see countries today prosper economically, we see thaat their success can be linked to high literacy rates. However, in 2025, despite economic prosperity, gender discrimination is still quite prevalent. Thus, in my project, I intend to:
 1. Investigate whether higher literacy rates can be linked to better gender equality
 2. Whether economic inequality is negatively correlated with literacy rate, and how that impacts our measure of gender equality
 
