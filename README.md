@@ -9,7 +9,7 @@ When we see countries today prosper economically, we see thaat their success can
 
 
 ## Data Sources
-The data sets that I intend on using my project have all been taken from data that has been made publically available.
+The data sets that I intend on using my project have all been taken from data that has been made publicly available.
 1. Global Literacy Rates: This data set has been taken from the World Bank website and provides the percentage of people aged 15 and above who count as literate.
 2. Women's Peace and Security Index: This data set has been taken from the Georgetown Instituite for Women, Peace and Security, and will be acting as our measure of gender equality
 3. Gini-Coefficient: The Gini-coefficent will be our measure of economic inequality, whose dataset has also been taken from the World Bank's website.
