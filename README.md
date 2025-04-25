@@ -43,7 +43,7 @@ The first step of my DSA term project was to clean and filter my data in a way t
 ## EXPLORATORY DATA ANALYSIS
 The intial analysis of my filtered data sets, was done through EDA. This method allowed me to study certain trends and understand my own data better. Starting off with summary statistics:
 
-<img width="664" alt="Screenshot 2025-04-25 at 09 46 32" src="https://github.com/user-attachments/assets/33300176-336b-465f-a6d9-f63deb61b7a4" />
+<img width="662" alt="Screenshot 2025-04-25 at 12 39 49" src="https://github.com/user-attachments/assets/5cd77015-1c10-4890-944c-736d4caa8cdd" />
 
 #### 1. Literacy Rate:
 The literacy rate data taken from World Bank website, calculated each countries literacy rate as the percentage of the population where individuals aged above 15 and above are educated. In this regard, a higher score (max=100) indicates a higher literacy rate for the country. In the table attached, we see the mode to be 100, from this we can assume that from the filtered data, the countries with higher literacy rates remained while countries with lower literacy rates may have been filtered out. This belief can be backed by the median (the middle most value) to be in the 90s and the mean (average) to be in the 80s.
@@ -53,6 +53,9 @@ Our measure of income inequality is the Gini Coefficient. The G.C score is on a 
 
 #### 3. WPS Index: 
 The measure of our gender equality is the Women's Peace and Security Index. This index measures Women's inclusion in multiple areas such as education, justice, social inclusion etc. The overall scores range from 0-1, 1 representing a higher WPS index, thus a country with better gender equality. In the same sense, a lower WPS index, indicates a country with a higher gender inequality. It is evident from the table above, a mode of 0.7, and the median and mean ranging in 0.6, indicates, that the list of countries in our dataset have relatively better gender equality. Additionally, I included the employment index from the WPS index so that there may be one additional factor to consider when looking at the relationship between gender equality and literacy rates. 
+
+#### 4. Employment Index:
+The employment index is a measure of women's participation in the labor force, taken from the overall WPS index dataset. It takes into account women and girls, aged 15 and above who are either in or looking for work. This was an additional indicator I added to my dataset so that I could compare more variables and get better insights as to what my data is showing. The summary statistics that we see, show us that on average, the employment index score is in 60s, giving the impression that the countries in our dataset have a slightly above average index for women's participation in the work force. 
 
 ### Data Visualisations:
 
@@ -71,18 +74,25 @@ The above histogram shows the distribution of Gini-Coefficient Scores, and unlik
 Lastly, we see the histogram of the WPS index and just like the Literacy rate data, we see a Kernal Density line, skewed to the left, alligning with our earlier observation that in our dataset, there are more countries with a higher WPS index score, i.e: better gender equality. 
 
 
-
 ![download (6)](https://github.com/user-attachments/assets/db393f21-6e13-4b80-ae4b-cf6a06fb16af)
 ![download (7)](https://github.com/user-attachments/assets/3c29db16-3472-4b34-b595-eab103a115db)
 ![download (8)](https://github.com/user-attachments/assets/badefee9-e9b4-4659-8438-40146f192479)
 
-The above barplots, show the same observations we have already made from our histograms and summarry statistics. 
+The above barplots, show the same observations we have already made from our histograms and summarry statistics. However, one can observe certain aspects such as the fact that lower-income countries are seen to have a lower literacy rate such as Burkina Faso or Mali. The same may be assumed for the WPS index. 
 
 ### Variable Relationships:
 
 ![download (9)](https://github.com/user-attachments/assets/c5e37315-35a5-4b8f-a19a-9932b16dc815)
 
 The boxplot above shows us the relationship between literacy rates and the WPS index. It can be observed that there is a general positive correlation, and the boxplots towards the left show us that they have lower median literacy rates and a greater spread. Additionally, countries with higher WPS index have a tighter distribution, indicating stronger gender equality. 
+
+![image](https://github.com/user-attachments/assets/486907c0-4330-4007-bb43-79d7881c6de5)
+
+Here we see a barplot, showcasing the relationship between literacy rates and gini coefficient. Through this grouped barplot, we can see the difference in both scores decrease as it goes from a developed to developing country. We also observe the overall trend for Literacy Rates to fall downwards, while Gini Coefficient remain almost the same.
+
+![image](https://github.com/user-attachments/assets/a8cf7af4-6630-4bf4-be0e-3d763f69edc3)
+
+Here we see another barplot, showing a different relationship between Literaccy Rates and Employment Index. We observe the disparity between both score to be quite less. Additionally, we can observe a potentiall negative correlation, as when literacy rates start to decrease, employment index are seen to be relatively high. However, there are some exceptions, for example, the country of Cameroon who seems to have a relatively balanced score between both. 
 
 ![download (10)](https://github.com/user-attachments/assets/38bf5ee5-ef19-4a89-a5a0-347fe6e89952)
 
