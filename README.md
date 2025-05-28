@@ -172,6 +172,9 @@ Firstly, a linear regression model was used to predict the WPS Index. As seen in
 
 The navy blue line of best fit shows a positive slope, highlighting that as AEL increases, so does the WPS index, reaffirming our belief that higher literacy rates and labour force participation can be correlated with a higher gender equality score. We also see a fair amount of entries (countries) scattered near the line of best fit, showing us that our prediction for the countries closer to the line are more accurate than the ones that are far. However, there still is a good amount of variance that this model does not explain.
 
+<img width="508" alt="Screenshot 2025-05-28 at 22 36 47" src="https://github.com/user-attachments/assets/cc2e4b95-5597-4686-937e-4d0e7527e8f8" />
+
+
 ### RANDOM FOREST:
 
 To further study our data, the Random Forest model was chosen. This model was chosen because it works well with smaller data, numerical and categorical features, and non linear relationships that the linear regression model could not capture. A random forest is an algorithm that combines the prediction of multiple decision trees and averages the result, and was used in the following two ways: 1. Regression 2. Classification
@@ -181,6 +184,9 @@ To further study our data, the Random Forest model was chosen. This model was ch
 A random forest regressor was used to predict the wps index (a continuous variable). In the following graph we see the relationship between the actual WPS index (X-axis) and the predicted WPS index (Y-axis), where again, each dot represents a country in our data set. The dashed line is a representation of the idea prediction, where our predicted results match our actual index scores. The regressor provided us with a R² value of 0.463 - indicating that 46% of our variation could be explained by this model, which is a significant increase from the linear regression R² value of 0.25. This reaffirms the belief that the random forest model captures more complex relationships that the linear regression could not. 
 
 The MSE value is of 0.0094 - a value showing, that on average our predications were ±0.10 points from our actual WPS index. A value that can be considered to be very insightful given our range to be limited from 0-1. Additionally, most of our data points closely follow the ideal prediction line, verifying the effectiveness of the model. The trend of the data points show an upwards trajectory, so we can confirm there is a positive correlation between our real and predicted values. This is also an indication of the fact that the model correctly learnt the relationship between the variables and isn’t generating random guesses. 
+
+
+<img width="502" alt="Screenshot 2025-05-28 at 22 36 39" src="https://github.com/user-attachments/assets/69e6ed60-779d-4ee4-a552-d41b1f4e50c8" />
 
 
 #### RANDOM FOREST CLASSIFIER:
@@ -195,6 +201,9 @@ Secondly our recall column shows that all high-WPS countries were detected, but 
 
 The F1 score balances the precision and recall calculations and we see the values ranging from 91-92% - so our model correctly estimated 11 out of 12 countries. 
 In conclusion the random forest classifier can be seen a highly reliable method of classifying countries as high or low gender equality, with only one miscalculation.
+
+<img width="419" alt="Screenshot 2025-05-28 at 22 36 28" src="https://github.com/user-attachments/assets/47241536-f4e5-40b5-a48c-5192a29a2543" />
+
 
 ## CONCLUSION:
 
